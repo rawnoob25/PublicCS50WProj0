@@ -1,0 +1,43 @@
+$bgCol: #111;
+
+.container {
+	display:flex;
+	flex-wrap:wrap;
+}
+
+%abox {
+	width: 100px;
+	height: 100px;
+	background-color: $bgCol;
+	margin: 20px;
+}
+
+#d1 {
+	@extend abox;
+	background-color: $bgCol * 1.5;
+}
+
+#d2 {
+	@extend abox;
+	background-color: $bgCol * 2.5;
+}
+
+#d3 {
+	@extend abox;
+	background-color: $bgCol * 3.5;
+}
+
+#d4 {
+	@extend abox;
+	background-color: $bgCol * 4.5;
+}
+
+#d5 {
+	@extend abox;
+	background-color: $bgCol * 5.5;
+}
+
+#d6 {
+	@extend abox;
+	background-color: $bgCol * 6.5;
+}
